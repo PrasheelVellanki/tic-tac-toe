@@ -1,0 +1,13 @@
+import the pygame module
+
+First screen, a small instruction box 
+    "three in a row, diagonal, player 1 is always X" etc. basic rules of tic tac toe
+    begin button appears, rectangle object that changes to another screen, with the game.
+
+A new 3x3 box appears with text at the bottom "Player 1's Turn" 
+    after player 1 clicks a square on the grid, a cross appears there,    
+    text alternates after each placement (P2,P1) which also represents if an X or O will be places
+    the click shows the o image being place, 
+    after 2 o's have been placed, start checking for a line of three of either x or O
+    when box is filled and the line condition is not met, show a "tie" screen
+
